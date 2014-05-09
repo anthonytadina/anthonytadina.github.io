@@ -331,7 +331,7 @@ ul.nav-items li a.active {
 .anthony-text {
   position: relative;
   padding-left: 7rem;
-  padding-top: 1rem;
+  padding-top: .75rem;
 }
 .about.contact {
   max-width: 58rem;
