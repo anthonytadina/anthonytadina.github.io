@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="item-height">
+  <div class="center-vertical clearfix">
+    <div class="item-image right">
+      <img src="{{ page.image }}">
+    </div>
+    <div class="item-info left">
+      <h1 style="color: {{ page.color }}">
+        <small>The Item</small>
+        {{ page.item }}
+      </h1>
+      <p class="item-description">{{ page.description }}</p>
+
+      <h2>
+        <small>The Place</small>
+        {% if page.website %} 
+          <a href="{{ page.website }}">
+            {{ page.restaurant }}<span>&nbsp;{{ page.amount }}</span>
+          </a>
+        {% else %}
+          {{ page.restaurant }}<span>&nbsp;{{ page.amount }}</span>
+        {% endif %}
+      </h2>
+      <address>
+        <a href="http://maps.google.com/?q={{ page.address-1 }} {{ page.address-2 }}">
+          {{ page.address-1 }}<br>
+          {{ page.address-2 }}
+        </a>
+      </address>
+
+      <div class="tags">
+        <ul>
+          {% for tag in page.tags %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+        
+      </div>
+
+      <div class="next-item">
+        {% if page.previous.url %} 
+          <a href="{{page.previous.url}}">Next item from <span>{{page.previous.restaurant}} &rsaquo;</span></a> 
+        {% else %}
+          <p>This is the end. Stay tuned for more items!</p>
+        {% endif %} 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <p class="meta">{{ page.date | date_to_string }}</p> -->

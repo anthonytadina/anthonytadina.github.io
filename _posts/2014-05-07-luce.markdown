@@ -1,0 +1,23 @@
+---
+layout: post
+bgcolor: "#fbf5f3"
+color: "#df6a4d"
+item: "Roasted Squab Breast, Leg Confit"
+description: "I learned two things about pigeon: it’s red meat, and it’s delicious. Pair with the finest veggies and a fermented black garlic puree and you’ve got yourself a winner."
+restaurant: "Luce"
+image: /images/luce.png
+amount: "$$$$"
+address-1: "888 Howard St" 
+address-2: "San Francisco, CA 94103" 
+website: "http://www.lucewinerestaurant.com/"
+tags: 
+- new american
+- entree
+- san francisco
+hiddentags: 
+- michelin rated
+neighborhood: SoMa
+permalink: luce
+geo-lat: 337.782071
+geo-lon: -122.4047526
+---

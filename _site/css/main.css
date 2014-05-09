@@ -1,0 +1,449 @@
+/*****************************************************************************/
+/*
+/* Global
+/*
+/*****************************************************************************/
+
+
+* {
+  margin: 0;
+  padding: 0; 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  color: #444945;
+  font-family: 'Whitney', 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  background: #f8f8e7;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif; 
+  font-weight: 500;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { 
+  display: block; 
+  text-transform: uppercase;
+  color: rgba(68,73,69,0.5);
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: .3125rem;
+}
+h1 { 
+  font-size: 3.125rem; 
+  font-style: italic;
+  margin-bottom: .75rem;
+}
+h2 { 
+  font-size: 1.5rem; 
+  margin-bottom: 0.25rem;
+}
+h2 small {
+  margin-bottom: .625rem;
+}
+h2 span {
+  font-family: 'Whitney', 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', 'Arial', sans-serif;
+  color: rgba(68,73,69,0.75);
+  font-size: .75rem;
+  font-style: italic;
+  display: inline-block;
+}
+h2 a { 
+  text-decoration: none;
+}
+h2 a:hover { 
+  text-decoration: underline;
+}
+h2 a:hover span {
+  text-decoration: none; 
+}
+h1 small, h2 small { 
+  font-size: .75rem
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+a, a:visited {
+  color: #444945;
+}
+
+a:hover {
+  color: #000;
+}
+
+address {
+  font-size: .9475rem; 
+  font-style: normal;
+  line-height: 1.625; 
+}
+
+address a {
+  text-decoration: none;
+}
+
+address a:hover {
+  text-decoration: underline;
+}
+
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+header {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+a.logo { 
+  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.125rem;
+}
+
+a.logo:before {
+  display: block;
+  content: "";
+  height: 30px;
+  width: 1px;
+  background: rgba(68,73,69,0.5);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  margin: 0 auto 0.5rem;
+}
+a.logo span {
+  font-weight: 500;
+  text-transform: none;
+  font-style: italic;
+}
+
+ul.nav-items {
+  display: block;
+  list-style: none;
+  margin-top: .5rem;
+}
+
+ul.nav-items li {
+  display: inline-block;
+  margin: 0 .75rem;
+}
+
+ul.nav-items li a {
+  color: #444945;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .75rem;
+  padding: 0 .5rem;
+  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+}
+ul.nav-items li a.active {
+  font-weight: bold;
+}
+
+/*****************************************************************************/
+/*
+/* Content
+/*
+/*****************************************************************************/
+.container {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+.fade-in {
+  height: 100%;
+}
+.content {
+  max-width: 58rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.item-height {
+  height: 100vh;
+}
+.center-vertical {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.item-info {
+  width: 50%; 
+}
+
+.item-description {
+  max-width: 24rem;
+  font-size: 1.0625rem;
+  line-height: 1.75; 
+  margin-bottom: 3.5rem;
+}
+.item-image {
+  width: 50%;
+}
+
+.item-image img {
+  display: block;
+  width: 100%;
+}
+
+.tags ul {
+  display: block;
+  list-style: none;
+  margin: 1rem 0 4.25rem -0.25rem;
+}
+.tags ul li {
+  display: inline-block;
+  font-size: .8125rem;
+  padding: .25rem .5rem;
+  margin: 0.25rem;
+  background: rgba(68,73,69,0.1);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.next-item {
+  border-top: 1px dashed rgba(68,73,69,0.1);
+  padding-top: .75rem;
+  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-weight: 400;
+}
+.next-item a {
+  text-decoration: none;
+}
+.next-item a span {
+  font-weight: 700;
+  text-decoration: underline;
+}
+/*****************************************************************************/
+/*
+/* The List
+/*
+/*****************************************************************************/
+.the-list {
+  min-height: 100vh;
+  padding: 8rem 0 4rem;
+}
+.the-list ul { 
+  list-style: none;
+}
+.the-list li {
+  border-bottom: 1px dashed rgba(68,73,69,0.25);
+}
+.the-list li:first-child {
+  border-top: 1px dashed rgba(68,73,69,0.25);
+}
+.the-list a {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+.the-list a:hover {
+  background: #efefda;
+}
+.the-list a span {
+  display: block;
+}
+.the-list .name {
+  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-size: 2rem;
+  width: 70%;
+  font-style: italic;
+}
+
+.the-list .city {
+  width: 30%;
+  text-align: right;
+  font-size: .75rem;
+  line-height: 1.4;
+}
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+.about {
+  min-height: 100vh;
+  max-width: 28rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  position: relative;
+}
+.about h1 {
+  color: #668548;
+}
+.about.contact h1 a {
+  color: #668548;
+  text-decoration: none;
+}
+.about.contact h1 a:hover {
+  color: #000;
+}
+.about .about-text {
+  font-size: 1.0625rem;
+  line-height: 1.75; 
+  margin-bottom: 3.5rem;
+}
+.about p {
+  font-size: .8125rem;
+  line-height: 1.4375rem;
+}
+.about-anthony {
+  position: relative;
+}
+.anthony {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 5.625rem;
+  width: 5.625rem;
+}
+.anthony img {
+  height: 5.625rem;
+  width: 5.625rem;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+.anthony-text {
+  position: relative;
+  padding-left: 7rem;
+  padding-top: 1rem;
+}
+.about.contact {
+  max-width: 58rem;
+  text-align: center;
+}
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+footer {
+  font-size: .75rem;
+  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+.copyright {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: 0 1rem 1.125rem;
+}
+.mobile-footer { display: none; }
+
+/*****************************************************************************/
+/*
+/* Responsive
+/*
+/*****************************************************************************/
+
+@media only screen and (max-width: 768px){
+  h1 { 
+    font-size: 2rem; 
+    line-height: 1.1;
+    margin-bottom: .5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  header { 
+    position: relative; 
+  }
+  .fade-in {
+    margin-top: -6rem;
+    padding-top: 6rem;
+  }
+  .item-height { height: auto; }
+  .center-vertical {
+    margin-top: 1rem;
+    position: relative;
+    top: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .mobile-footer {
+    display: block;
+    font-size: .75rem;
+    font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+    font-weight: 400;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    margin-top: 2rem;
+  }
+  .item-info, .item-image { 
+    width: 100%; 
+    float: none; 
+  }
+  .item-image {
+    margin-bottom: 1rem;
+  }
+  .item-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  footer {
+    display: none;
+  }
+  .container {
+    min-height: 0;
+  }
+  .copyright .left, .copyright .right {
+    float: none;
+    margin-top: .5rem;
+  } 
+  .the-list {
+    padding: 2rem 0 1rem;
+  }
+  .about {
+    padding: 2rem 1rem 1rem;
+    min-height: 0;
+  }
+  .anthony-text {
+    padding-top: 0;
+    margin-bottom: 2rem;
+  }
+  .the-list .name { 
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .the-list .city {
+    text-align: left; 
+    width: 100%;
+    margin-top: .25rem;
+  }
+  .next-item {
+    margin-bottom: 1rem;
+  }
+  .about.contact h1 {
+    font-size: 1.5rem;
+  }
+}

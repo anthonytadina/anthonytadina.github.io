@@ -1,0 +1,23 @@
+---
+layout: post
+bgcolor: "#faf2dd"
+color: "#c48942"
+item: "Kalbi, Salt"
+description: "There’s something magical about the charcoal that these skewers are cooked on because short ribs and salt never tasted this good."
+restaurant: "Gaku Japanese Charcoal Grill"
+image: /images/gaku.png
+amount: "$$"
+address-1: "5152 Moorpark Ave, Ste 40" 
+address-2: "San Jose, CA 95129" 
+website: "http://gaku.sumiyakitori.com/"
+tags: 
+- dinner
+- japanese
+- san jose
+- yakitori
+hiddentags:
+neighborhood: West San Jose
+permalink: gaku-japanese-charcoal-grill
+geo-lat: 37.3088354
+geo-lon: -121.9938008
+---

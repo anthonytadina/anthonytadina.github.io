@@ -1,0 +1,24 @@
+---
+layout: post
+bgcolor: "#f2f8d7"
+color: "#8fa144"
+item: "Crispy Brussels Sprout Chips"
+description: "Forget kale. It’s all about brussels sprouts these days. Crispy, salty, and tart. How decadent."
+restaurant: "Marlowe"
+image: /images/marlowe.png
+amount: "$$$"
+address-1: "330 Townsend St" 
+address-2: "San Francisco, CA 94107" 
+website: "http://marlowesf.com/"
+tags: 
+- dinner
+- new american
+- side
+- san francisco
+hiddentags:
+- michelin rated
+neighborhood: SoMa
+permalink: marlowe
+geo-lat: 37.7768114
+geo-lon: -122.3961768
+---

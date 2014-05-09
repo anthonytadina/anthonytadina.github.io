@@ -1,0 +1,23 @@
+---
+layout: post
+bgcolor: "#f7f1d4"
+color: "#838852"
+item: "Athena"
+description: "The tastiest pizza happens to be the one that’s vegetarian. That’s probably how things work on other planets. Or Berkeley in general."
+restaurant: "Jupiter"
+image: /images/jupiter.png
+amount: "$$"
+address-1: "2181 Shattuck Ave" 
+address-2: "Berkeley, CA 94704"
+website: "http://www.jupiterbeer.com/"
+tags: 
+- berkeley
+- lunch
+- pizza
+- vegetarian
+hiddentags:
+neighborhood: Downtown Berkeley
+permalink: jupiter
+geo-lat: 37.8698014
+geo-lon: -122.267527
+---

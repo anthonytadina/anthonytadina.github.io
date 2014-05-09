@@ -1,0 +1,25 @@
+---
+layout: post
+bgcolor: "#cac6c5"
+color: "#080a05"
+item: "Squid Ink Fried Rice"
+description: "A stunningly simple dish that makes all of your yakitori treats taste so much better. Don’t worry, your mouth won’t turn black."
+restaurant: "Ippuku"
+image: /images/ippuku.png
+amount: "$$$"
+address-1: "2130 Center St" 
+address-2: "Berkeley, CA 94704" 
+website: "http://www.ippukuberkeley.com/"
+tags: 
+- berkeley
+- dinner
+- japanese
+- side
+hiddentags:
+- michelin rated
+neighborhood: Downtown Berkeley
+permalink: ippuku
+geo-lat: 37.8702058
+geo-lon: -122.2670882
+---
+
