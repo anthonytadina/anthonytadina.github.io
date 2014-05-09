@@ -197,7 +197,7 @@ ul.nav-items li a.active {
   max-width: 24rem;
   font-size: 1.0625rem;
   line-height: 1.75; 
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 .item-image {
   width: 50%;
@@ -211,7 +211,7 @@ ul.nav-items li a.active {
 .tags ul {
   display: block;
   list-style: none;
-  margin: 1rem 0 4.25rem -0.25rem;
+  margin: 0.25rem 0 2.25rem -0.25rem;
 }
 .tags ul li {
   display: inline-block;
@@ -363,7 +363,20 @@ footer {
 /* Responsive
 /*
 /*****************************************************************************/
-
+@media only screen and (max-height: 670px){
+  h1 {
+    font-size: 2.5rem;
+  } 
+  .item-description {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  address {
+    font-size: .875rem;
+  }
+}
 @media only screen and (max-width: 768px){
   h1 { 
     font-size: 2rem; 
