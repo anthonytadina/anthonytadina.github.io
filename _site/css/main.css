@@ -16,14 +16,14 @@
 body {
   margin: 0 auto;
   color: #444945;
-  font-family: 'Whitney', 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   position: relative;
   background: #f8f8e7;
 }
 
 h1, h2, h3, h4, h5, h6 { 
-  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif; 
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif; 
   font-weight: 500;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { 
@@ -35,7 +35,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   margin-bottom: .3125rem;
 }
 h1 { 
-  font-size: 3.125rem; 
+  font-size: 3rem; 
   font-style: italic;
   margin-bottom: .75rem;
 }
@@ -47,7 +47,7 @@ h2 small {
   margin-bottom: .625rem;
 }
 h2 span {
-  font-family: 'Whitney', 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', 'Arial', sans-serif;
   color: rgba(68,73,69,0.75);
   font-size: .75rem;
   font-style: italic;
@@ -112,7 +112,7 @@ header {
   z-index: 2;
 }
 a.logo { 
-  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -155,7 +155,7 @@ ul.nav-items li a {
   text-decoration: none;
   font-size: .75rem;
   padding: 0 .5rem;
-  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
 }
 ul.nav-items li a.active {
   font-weight: bold;
@@ -227,7 +227,7 @@ ul.nav-items li a.active {
 .next-item {
   border-top: 1px dashed rgba(68,73,69,0.1);
   padding-top: .75rem;
-  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
   font-weight: 400;
 }
 .next-item a {
@@ -267,7 +267,7 @@ ul.nav-items li a.active {
   display: block;
 }
 .the-list .name {
-  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
   font-size: 2rem;
   width: 70%;
   font-style: italic;
@@ -344,7 +344,7 @@ ul.nav-items li a.active {
 /*****************************************************************************/
 footer {
   font-size: .75rem;
-  font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
   font-weight: 400;
   position: absolute;
   bottom: 0;
@@ -405,7 +405,7 @@ footer {
   .mobile-footer {
     display: block;
     font-size: .75rem;
-    font-family: 'Sentinel', 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
+    font-family: 'Sentinel SSm A', 'Sentinel SSm B', 'Georgia', serif;
     font-weight: 400;
     bottom: 0;
     width: 100%;
