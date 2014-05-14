@@ -1,0 +1,22 @@
+---
+layout: post
+bgcolor: "#fcf9ee"
+color: "#ddbc9f"
+item: "Orange Rosemary Toffee"
+description: "Nothing’s more refreshing than ice cream at 9pm on a warm Berkeley night, especially when the flavor is as uniquely balanced as this. Trust me, it’s worth the wait."
+restaurant: "Ici"
+image: /images/ici.png
+amount: "$"
+address-1: "2948 College Ave" 
+address-2: "Berkeley, CA 94705" 
+website: "http://www.ici-icecream.com/"
+tags: 
+- berkeley
+- dessert
+- ice cream
+hiddentags:
+neighborhood: Elmwood
+permalink: ici
+geo-lat: 37.8573901
+geo-lon: -122.2534355
+---
