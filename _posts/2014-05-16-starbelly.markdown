@@ -1,6 +1,6 @@
 ---
 layout: post
-bgcolor: "#f3d6b0"
+bgcolor: "#f7e4cc"
 color: "#df6a4d"
 item: "Starbelly Bacon Pizza"
 description: "There’s something about that Starbelly bacon that keeps me coming back for more, especially when it’s on a pizza. Ultimate satisfaction with a jalapeño kick."
