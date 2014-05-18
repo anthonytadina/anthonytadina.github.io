@@ -1,0 +1,22 @@
+---
+layout: post
+bgcolor: "#fff5d6"
+color: "#e49d1e"
+item: "Rock Shrimp Ten-Don"
+description: "Make a reservation and get this pleasant blend of tempura-fried rock shrimp, egg, and onions atop a bed of rice. Great after your glass of sake."
+restaurant: "Kiraku"
+image: /images/kiraku.png
+amount: "$$"
+address-1: "2566B Telegraph Ave" 
+address-2: "Berkeley, CA 94704" 
+website: "http://www.kirakuberkeley.com/"
+tags: 
+- berkeley
+- dinner
+- japanese
+hiddentags:
+neighborhood: Castro
+permalink: kiraku
+geo-lat: 37.863683
+geo-lon: -122.258976
+---
