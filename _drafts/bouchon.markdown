@@ -1,0 +1,23 @@
+---
+layout: post
+bgcolor: "#f5eae7"
+color: "#c85f45"
+item: "Beignets de Brandade de Morue"
+description: "A surprsing hit of deep fried <em>brandade</em> (cod and olive oil) that’s both crispy and soft atop the most perfect tomato confit."
+restaurant: "Bouchon"
+image: /images/bouchon.png
+amount: "$$$"
+address-1: "6534 Washington St" 
+address-2: "Yountville, CA 94599" 
+website: "http://bouchonbistro.com/"
+tags: 
+- appetizer
+- french
+- lunch
+- yountville
+hiddentags: 
+- michelin rated
+permalink: bouchon
+geo-lat: 38.4025729
+geo-lon: -122.361926
+---

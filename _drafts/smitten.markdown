@@ -1,0 +1,21 @@
+---
+layout: post
+bgcolor: "#f8fdeb"
+color: "#868e73"
+item: "Fresh Mint Chip"
+description: "You might think Andes, and you’d be wrong. Instead, take a mojito, add some chocolate bits, then enjoy and be smiten with delight."
+restaurant: "Smitten"
+image: /images/smitten.png
+amount: "$"
+address-1: "5800 College Ave" 
+address-2: "Oakland, CA 94618"
+website: "http://smittenicecream.com/"
+tags: 
+- dessert
+- oakland
+hiddentags:
+neighborhood: Rockridge
+permalink: boot-and-shoe-service
+geo-lat: 37.8460685
+geo-lon: -122.2518297
+---
