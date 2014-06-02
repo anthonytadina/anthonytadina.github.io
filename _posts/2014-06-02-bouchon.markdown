@@ -3,7 +3,7 @@ layout: post
 bgcolor: "#f5eae7"
 color: "#c85f45"
 item: "Beignets de Brandade de Morue"
-description: "A surprsing hit of deep fried <em>brandade</em> (cod and olive oil) that’s both crispy and soft atop the most perfect tomato confit."
+description: "A surprsing hit of deep fried <em>brandade</em> (cod and olive oil) that’s both crispy and soft atop the most perfect tomato confit. Get it to start."
 restaurant: "Bouchon"
 image: /images/bouchon.png
 amount: "$$$"
