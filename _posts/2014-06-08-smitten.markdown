@@ -15,7 +15,7 @@ tags:
 - oakland
 hiddentags:
 neighborhood: Rockridge
-permalink: boot-and-shoe-service
+permalink: smitten
 geo-lat: 37.8460685
 geo-lon: -122.2518297
 ---
